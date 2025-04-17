@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LESTOPIA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: url('https://i.imgur.com/nfMbQgZ.gif'); /* classic tiled bg */
+      color: lime;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: black;
+      border: 5px double #00ff00;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    h1 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 24px;
+      color: magenta;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .gif-banner {
+      display: block;
+      margin: 10px auto;
+    }
+
+    marquee {
+      color: yellow;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    .counter {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    iframe.pixel-pet {
+      display: block;
+      margin: 20px auto;
+      border: none;
+      background: none;
+    }
+
+    .midi {
+      display: none;
+    }
+
+    .content {
+      background-color: #111;
+      color: #0f0;
+      padding: 15px;
+      font-size: 14px;
+      border: 1px dashed #0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>LESTOPIA</h1>
+
+    <img class="gif-banner" src="https://i.imgur.com/QzV9TP9.gif" alt="Welcome Banner">
+
+    <marquee behavior="alternate">🌐 Welcome to the ultimate XP Zone 🌐</marquee>
+
+    <div class="content">
+      <p>💾 This is my retro internet corner. Click around. Scroll slowly. Vibe deeply. </p>
+      <p>✨ Powered by glitter, chaos, and dial-up energy. </p>
+    </div>
+
+    <iframe class="pixel-pet" src="https://sadgrl.online/pet/pet.html?name=Blinky&pet=cat1" width="200" height="200"></iframe>
+
+    <div class="counter">
+      <img src="https://www.counter12.com/img-ztcAZZ9aCwcZY1yW-42.gif" alt="visitor counter" border="0">
+    </div>
+
+    <!-- MIDI Autoplay -->
+    <audio class="midi" autoplay loop>
+      <source src="https://www.vgmusic.com/music/computer/microsoft/win3x_The_Entertainer.mid" type="audio/midi">
+    </audio>
+
+  </div>
+
+</body>
+</html>
